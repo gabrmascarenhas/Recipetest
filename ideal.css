@@ -28,6 +28,7 @@ body{
             margin-bottom: 40px;
             border-radius: 20px;
         }
+    border-radius: 25px;
     
 }
 h1{
@@ -47,19 +48,37 @@ ul{
     li{
         margin-bottom:10px;
     }
+    li::marker{
+        color: pink;
+    } 
     
 }
 h2{
     margin-top:40px;
     margin-bottom: 16px;
 }
-p{
-    margin-bottom:16px;
+
+.desc{
+    margin-bottom: 16px;
 }
-ul{
+ul, ol{
     padding-left: 20px;
     li{
         margin-bottom: 10px;
     }
 
+}
+table{
+    
+    margin-top: 10px;
+    width: 100%;
+    border-collapse: collapse;
+    tr{
+        td{
+            width: 50%;
+            height: 40px;
+            border-bottom: 1px solid #dddddd;
+
+        }
+    }
 }
